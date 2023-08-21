@@ -87,8 +87,8 @@ password: string
 ```
 ### FIGMA
 
+Está disponível por meio deste [link](https://www.figma.com/file/vETB61Hj0vmkCyEI9DpxjC/Teste-RevPay---Frontend?type=design&node-id=0%3A1&mode=design&t=HvhsfPlv5Q42Qoes-1)
+
 ![image](https://github.com/CredTechBR/revpay-desafio-frontend/assets/91689754/67a246a4-5870-45b7-a4aa-fdfacb78c63d)
 
 Tente replicar o máximo possível.
-
-<https://www.figma.com/file/vETB61Hj0vmkCyEI9DpxjC/Teste-RevPay---Frontend?type=design&node-id=0%3A1&mode=design&t=HvhsfPlv5Q42Qoes-1>
