@@ -48,26 +48,26 @@ rapidamente. Por isso, avaliaremos como você organizará o seu projeto.
 
 ### Entrada
 
-Campo   | Possui mascara? | Validação (caracteres)
---------- | ------ | --------
-NOME COMPLETO | Não | Mínimo 1, Máximo 100
-CPF | Sim | Mínimo 11
-DATA DE NASCIMENTO | Sim | Mínimo 9
-EMAIL | Não | Obrigatório
-CEP | Sim | Mínimo 8
-CONTATO | Sim | Mínimo 11
-NÚMERO | Não | Mínimo 1, Máximo 40
-ESTADO | Não | Obrigatório, Máximo 2
-PAÍS | Não | Obrigatório
-CIDADE | Não | Obrigatório
-BAIRRO | Não | Obrigatório
-RUA | Não | Obrigatório
-ENDEREÇO  | Não | Obrigatório
-COMPLEMENTO (Opcional)  | Não | Opcional
-ESCOLARIDADE  | Não | Obrigatório
-RENDA MENSAL | Sim | Obrigatório
-SENHA  | Não | Minimo 10
-CONFIRMAR SENHA | Não | Minimo 10
+Campo   | Possui mascara? | Validação (caracteres) | Saída
+--------- | ------ | -------- | -----------
+NOME COMPLETO | Não | Mínimo 1, Máximo 100 | fullname
+CPF | Sim | Mínimo 11 | documentNumber
+DATA DE NASCIMENTO | Sim | Mínimo 9 | birthdate
+EMAIL | Não | Obrigatório | email
+CEP | Sim | Mínimo 8 | zipcode
+CONTATO | Sim | Mínimo 11 | phoneNumber
+NÚMERO | Não | Mínimo 1, Máximo 40 | addressNumber
+ESTADO | Não | Obrigatório, Máximo 2 | addressState
+PAÍS | Não | Obrigatório | country
+CIDADE | Não | Obrigatório | city
+BAIRRO | Não | Obrigatório | district
+RUA | Não | Obrigatório | street
+ENDEREÇO  | Não | Obrigatório | address
+COMPLEMENTO (Opcional)  | Não | Opcional | addressComplement
+ESCOLARIDADE  | Não | Obrigatório | educationLevel
+RENDA MENSAL | Sim | Obrigatório | minimumWage
+SENHA  | Não | Minimo 10 | password
+CONFIRMAR SENHA | Não | Minimo 10 | confirmPassword
 
 ### Saída
 
