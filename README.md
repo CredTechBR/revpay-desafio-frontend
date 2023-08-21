@@ -31,6 +31,7 @@ Elaborar um formulário com as seguintes regras:
 4 - Campos que possuem MASCARAS devem ser normalizados, ou seja, devem ser removidos antes de enviar para o backend.
 5 - Permitir cadastro de pessoas maiores de 18 anos apenas.
 ```
+Ao inserir CEP, preencher os campos ENDEREÇO, BAIRRO, e ESTADO por meio desta [API](https://viacep.com.br/).
 
 ### Requisitos
 
@@ -59,6 +60,7 @@ NÚMERO | Não | Mínimo 1, Máximo 40
 ESTADO | Não | Obrigatório, Máximo 2
 PAÍS | Não | Obrigatório
 CIDADE | Não | Obrigatório
+BAIRRO | Não | Obrigatório
 RUA | Não | Obrigatório
 ENDEREÇO  | Não | Obrigatório
 COMPLEMENTO (Opcional)  | Não | Opcional
@@ -83,6 +85,7 @@ phoneNumber: string
 addressNumber: string
 country: string
 city: string
+addressDistrict: string
 addressComplement: string | null
 street: string
 educationLevel: string
