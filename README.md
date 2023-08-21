@@ -1,5 +1,25 @@
 # revpay-desafio-frontend
 
+Primeiramente, obrigado pelo seu interesse em trabalhar conosco.
+
+## Avisos antes de começar
+
+- Crie um repositório no seu GitHub **sem citar nada relacionado a RevPay**.
+- Faça seus commits no seu repositório.
+- Envie o link do seu repositório para o email: renan.almeida@revpay.com.br, carlos.eduardo@revpay.com.br ou felipemirandahoje@gmail.com
+- Você poderá consultar o Google, Stackoverflow ou algum projeto particular na sua máquina.
+- Fique à vontade para perguntar qualquer dúvida aos recrutadores.
+
+*Corpo do Email com o link do repositório do desafio*
+
+>Seu Nome
+>
+>Link do repositório
+
+### Sobre o ambiente da aplicação:
+
+Você pode utilizar Vite ou Next Js.
+
 ## Regras
 
 Elaborar um formulário com as seguintes regras:
@@ -56,7 +76,7 @@ birthdate: string
 email: string
 zipcode: string
 phoneNumber: string
-addressNumber: number
+addressNumber: string
 country: string
 city: string
 addressComplement: string | null
