@@ -69,6 +69,10 @@ CONFIRMAR SENHA | Não | Minimo 10
 
 ### Saída
 
+Ao clicar quem cadastrar, o resultado deverá ser mostrado por meio de um Alert.
+
+[Window: alert() method](https://developer.mozilla.org/en-US/docs/Web/API/Window/alert)
+
 ```
 fullname: string
 documentNumber: string
