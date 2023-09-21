@@ -60,9 +60,8 @@ NÚMERO | Não | Mínimo 1, Máximo 40 | addressNumber
 ESTADO | Não | Obrigatório, Máximo 2 | addressState
 PAÍS | Não | Obrigatório | country
 CIDADE | Não | Obrigatório | city
-BAIRRO | Não | Obrigatório | district
-RUA | Não | Obrigatório | street
-ENDEREÇO  | Não | Obrigatório | address
+BAIRRO | Não | Obrigatório | addressDistrict
+ENDEREÇO  | Não | Obrigatório | addressStreet
 COMPLEMENTO (Opcional)  | Não | Opcional | addressComplement
 ESCOLARIDADE  | Não | Obrigatório | educationLevel
 RENDA MENSAL | Sim | Obrigatório | minimumWage
@@ -87,7 +86,8 @@ country: string
 city: string
 addressDistrict: string
 addressComplement: string | null
-street: string
+addressStreet: string
+addressState: string
 educationLevel: string
 minimumWage: number
 password: string
